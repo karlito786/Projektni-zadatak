@@ -22,17 +22,39 @@
 					padding: 6px;
 					background-color: #FFFFCC; 
 			} 
+			body {
+        background-image: url('https://www.istrapedia.hr/media/__sized__/uploads/images/battiala_grb-crop-c0-5__0-5-400x500.png');
+        background-size: cover;
+		background-repeat: no-repeat;
+        height: 100vh;
+      		}
+			.beautiful-button {
+    background-color: lightgreen;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+			}
 		</style>
 		<title>Villa Milica</title>
 	</head>
 <body>
-	<div id="banner">
-		<button id="home-button">Naslovna</button>
-		<button id="news-button">Novosti</button>
-		<button id="contact-button">Kontakt</button>
-		<button id="about-button">O nama</button>
-		<button id="gallery-button">Galerija</button>
-	  </div>
+	<div id="banner" style="
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: grey;
+">
+	<button id="home-button" class="beautiful-button">Naslovna</button>
+	<button id="news-button" class="beautiful-button">Novosti</button>
+	<button id="contact-button" class="beautiful-button">Kontakt</button>
+	<button id="about-button" class="beautiful-button">O nama</button>
+	<button id="gallery-button" class="beautiful-button">Galerija</button>
+</div>
 	<h1>Villa Milica</h1>
 	<p>Novoizgrađena Villa Milica nalazi se u blizini centra grada Labina, u naselju Presika, na samo 5 km od prekrasnih plaža u Rapcu ili Dugoj Luci.
 
